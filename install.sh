@@ -2,7 +2,7 @@
 # Install the cleanup as a root LaunchDaemon. Run with sudo.
 set -euo pipefail
 
-label=com.sohambanerjee.local-hosts-cleanup
+label=local-hosts-cleanup
 here="$(cd "$(dirname "$0")" && pwd)"
 bin="/Library/PrivilegedHelperTools/${label}"
 plist="/Library/LaunchDaemons/${label}.plist"

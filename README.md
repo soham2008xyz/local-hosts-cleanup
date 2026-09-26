@@ -26,7 +26,7 @@ sudo ./install.sh
 `install.sh`:
 
 1. backs up `/etc/hosts` to `/etc/hosts.bak.<timestamp>`
-2. copies the script to `/Library/PrivilegedHelperTools/com.sohambanerjee.local-hosts-cleanup`, owned by `root:wheel`
+2. copies the script to `/Library/PrivilegedHelperTools/local-hosts-cleanup`, owned by `root:wheel`
 3. copies the plist to `/Library/LaunchDaemons/`
 4. loads the daemon
 
@@ -35,7 +35,7 @@ The script must be owned by root so that no one else can edit a file that runs a
 ## Check it works
 
 ```bash
-sudo launchctl print system/com.sohambanerjee.local-hosts-cleanup | grep -E 'state|last exit'
+sudo launchctl print system/local-hosts-cleanup | grep -E 'state|last exit'
 ```
 
 Between runs this shows `state = not running`. That is expected, since each run takes well under a second. `last exit code = 0` means the last run succeeded.

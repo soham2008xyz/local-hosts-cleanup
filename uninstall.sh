@@ -2,7 +2,7 @@
 # Remove the cleanup LaunchDaemon. Run with sudo.
 set -euo pipefail
 
-label=com.sohambanerjee.local-hosts-cleanup
+label=local-hosts-cleanup
 
 if [ "$(id -u)" -ne 0 ]; then
     echo "Run with sudo: sudo $0" >&2

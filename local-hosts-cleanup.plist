@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.sohambanerjee.local-hosts-cleanup</string>
+    <string>local-hosts-cleanup</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Library/PrivilegedHelperTools/com.sohambanerjee.local-hosts-cleanup</string>
+        <string>/Library/PrivilegedHelperTools/local-hosts-cleanup</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
