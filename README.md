@@ -1,5 +1,11 @@
 # local-hosts-cleanup
 
+[![macOS](https://img.shields.io/badge/macOS-000000?logo=macos&logoColor=white)](https://www.apple.com/macos/)
+[![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
+[![launchd](https://img.shields.io/badge/launchd-LaunchDaemon-555555?logo=apple&logoColor=white)](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html)
+[![Local](https://img.shields.io/badge/Local-51BB7B?logo=local&logoColor=white)](https://localwp.com)
+[![License: MIT](https://img.shields.io/github/license/soham2008xyz/local-hosts-cleanup)](LICENSE)
+
 [Local](https://localwp.com) adds a line to `/etc/hosts` for every site you have, pointing each domain at your Mac. It never removes them when it quits, so real domains keep resolving to `127.0.0.1` after Local has closed.
 
 This macOS LaunchDaemon removes those lines once Local has quit.
