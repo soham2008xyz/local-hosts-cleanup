@@ -1,0 +1,5 @@
+title: Hosts file cleanup for Local WP
+description: Remove Local WP's /etc/hosts entries once Local has quit (macOS LaunchDaemon)
+show_downloads: true
+google_analytics: 
+theme: jekyll-theme-cayman
